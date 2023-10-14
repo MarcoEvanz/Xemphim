@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "XemPhim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Xemphim.Models.Phim
+<h2>@Model.TieuDe</h2>
+<iframe src="@Model.URLPhim" width="640" height="360" allow="autopl+ay" id="video"></iframe>
+@*<video controls width="640" height="480">
+        <source
+                src="https://drive.google.com/uc?id=1HkH48yGWYsnuGtaKvdlj7Aai7sqyEDf_"
+                type="video/mp4">
+    </video>*@

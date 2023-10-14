@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NetflixModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DaoDien">
+          <Key>
+            <PropertyRef Name="IdDaoDien" />
+          </Key>
+          <Property Name="IdDaoDien" Type="int" Nullable="false" />
+          <Property Name="TenDaoDien" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="NguoiDung">
+          <Key>
+            <PropertyRef Name="IdNguoiDung" />
+          </Key>
+          <Property Name="IdNguoiDung" Type="int" Nullable="false" />
+          <Property Name="HoTenNguoiDung" Type="nvarchar" MaxLength="20" />
+          <Property Name="Email" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="MatKhau" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="NgayDangKy" Type="date" />
+        </EntityType>
+        <EntityType Name="Phim">
+          <Key>
+            <PropertyRef Name="IdPhim" />
+          </Key>
+          <Property Name="IdPhim" Type="int" Nullable="false" />
+          <Property Name="TieuDe" Type="varchar" MaxLength="50" />
+          <Property Name="TenPhim" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NamSanXuat" Type="date" />
+          <Property Name="TheLoai" Type="nvarchar" MaxLength="20" />
+          <Property Name="ThoiLuong" Type="varchar" MaxLength="20" />
+          <Property Name="URLPhim" Type="nvarchar" MaxLength="200" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'Netflix.dbo.PhimDaoDien' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="PhimDaoDien">
+          <Property Name="IdPhim" Type="int" />
+          <Property Name="IdDaoDien" Type="int" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+error 6004: The table 'Netflix.dbo.PhimDaoDien' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__PhimDaoDi__IdDao__2B3F6F97" />-->
+        <!--Errors Found During Generation:
+error 6004: The table 'Netflix.dbo.PhimDaoDien' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__PhimDaoDi__IdPhi__2A4B4B5E" />-->
+        <EntityContainer Name="NetflixModelStoreContainer">
+          <EntitySet Name="DaoDien" EntityType="Self.DaoDien" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NguoiDung" EntityType="Self.NguoiDung" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Phim" EntityType="Self.Phim" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NetflixModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DaoDien">
+          <Key>
+            <PropertyRef Name="IdDaoDien" />
+          </Key>
+          <Property Name="IdDaoDien" Type="Int32" Nullable="false" />
+          <Property Name="TenDaoDien" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="NguoiDung">
+          <Key>
+            <PropertyRef Name="IdNguoiDung" />
+          </Key>
+          <Property Name="IdNguoiDung" Type="Int32" Nullable="false" />
+          <Property Name="HoTenNguoiDung" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MatKhau" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NgayDangKy" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Phim">
+          <Key>
+            <PropertyRef Name="IdPhim" />
+          </Key>
+          <Property Name="IdPhim" Type="Int32" Nullable="false" />
+          <Property Name="TieuDe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TenPhim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NamSanXuat" Type="DateTime" Precision="0" />
+          <Property Name="TheLoai" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="ThoiLuong" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="URLPhim" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="NetflixEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DaoDiens" EntityType="Self.DaoDien" />
+          <EntitySet Name="NguoiDungs" EntityType="Self.NguoiDung" />
+          <EntitySet Name="Phims" EntityType="Self.Phim" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NetflixModelStoreContainer" CdmEntityContainer="NetflixEntities">
+          <EntitySetMapping Name="DaoDiens">
+            <EntityTypeMapping TypeName="NetflixModel.DaoDien">
+              <MappingFragment StoreEntitySet="DaoDien">
+                <ScalarProperty Name="IdDaoDien" ColumnName="IdDaoDien" />
+                <ScalarProperty Name="TenDaoDien" ColumnName="TenDaoDien" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NguoiDungs">
+            <EntityTypeMapping TypeName="NetflixModel.NguoiDung">
+              <MappingFragment StoreEntitySet="NguoiDung">
+                <ScalarProperty Name="IdNguoiDung" ColumnName="IdNguoiDung" />
+                <ScalarProperty Name="HoTenNguoiDung" ColumnName="HoTenNguoiDung" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+                <ScalarProperty Name="NgayDangKy" ColumnName="NgayDangKy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Phims">
+            <EntityTypeMapping TypeName="NetflixModel.Phim">
+              <MappingFragment StoreEntitySet="Phim">
+                <ScalarProperty Name="IdPhim" ColumnName="IdPhim" />
+                <ScalarProperty Name="TieuDe" ColumnName="TieuDe" />
+                <ScalarProperty Name="TenPhim" ColumnName="TenPhim" />
+                <ScalarProperty Name="NamSanXuat" ColumnName="NamSanXuat" />
+                <ScalarProperty Name="TheLoai" ColumnName="TheLoai" />
+                <ScalarProperty Name="ThoiLuong" ColumnName="ThoiLuong" />
+                <ScalarProperty Name="URLPhim" ColumnName="URLPhim" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

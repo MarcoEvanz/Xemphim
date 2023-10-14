@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "ChiTietPhim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Xemphim.Models.Phim
+<h2>Chi Tiết Phim</h2>
+<h2>@Model.TieuDe</h2>
+<img src="~/Content/MovieIMG/@Model.HinhMinhHoa" alt="@Model.TenPhim" style="width:250px; height:250px">
+<button>
+    <a href="@Url.Action("XemPhim", "Home", new { id =  Model.IdPhim})">Xem Ngay</a>
+</button>

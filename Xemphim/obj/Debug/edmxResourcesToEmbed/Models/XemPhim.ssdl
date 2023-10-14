@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NetflixModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DaoDien">
+    <Key>
+      <PropertyRef Name="IdDaoDien" />
+    </Key>
+    <Property Name="IdDaoDien" Type="int" Nullable="false" />
+    <Property Name="TenDaoDien" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="IdNguoiDung" />
+    </Key>
+    <Property Name="IdNguoiDung" Type="int" Nullable="false" />
+    <Property Name="HoTenNguoiDung" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="MatKhau" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="NgayDangKy" Type="date" />
+  </EntityType>
+  <EntityType Name="Phim">
+    <Key>
+      <PropertyRef Name="IdPhim" />
+    </Key>
+    <Property Name="IdPhim" Type="int" Nullable="false" />
+    <Property Name="TieuDe" Type="varchar" MaxLength="50" />
+    <Property Name="TenPhim" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NamSanXuat" Type="date" />
+    <Property Name="TheLoai" Type="nvarchar" MaxLength="20" />
+    <Property Name="ThoiLuong" Type="varchar" MaxLength="20" />
+    <Property Name="URLPhim" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Netflix.dbo.PhimDaoDien' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="PhimDaoDien">
+          <Property Name="IdPhim" Type="int" />
+          <Property Name="IdDaoDien" Type="int" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+error 6004: The table 'Netflix.dbo.PhimDaoDien' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__PhimDaoDi__IdDao__2B3F6F97" />-->
+  <!--Errors Found During Generation:
+error 6004: The table 'Netflix.dbo.PhimDaoDien' is referenced by a relationship, but cannot be found.
+        <Association Name="FK__PhimDaoDi__IdPhi__2A4B4B5E" />-->
+  <EntityContainer Name="NetflixModelStoreContainer">
+    <EntitySet Name="DaoDien" EntityType="Self.DaoDien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NguoiDung" EntityType="Self.NguoiDung" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Phim" EntityType="Self.Phim" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

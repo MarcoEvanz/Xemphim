@@ -1,0 +1,249 @@
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Xemphim.dll.config
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Xemphim.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Xemphim.pdb
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\csc.exe
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\csc.exe.config
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\csc.rsp
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\csi.exe
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\csi.exe.config
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\csi.rsp
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.Managed.Core.targets
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.AppContext.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Collections.Immutable.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Console.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Globalization.Calendars.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.IO.Compression.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.IO.FileSystem.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Net.Http.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Net.Sockets.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Reflection.Metadata.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.ValueTuple.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Xml.XmlDocument.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Xml.XPath.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\vbc.exe
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\vbc.exe.config
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\vbc.rsp
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\VBCSCompiler.exe
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\roslyn\VBCSCompiler.exe.config
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Antlr3.Runtime.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Microsoft.Web.Infrastructure.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Newtonsoft.Json.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Helpers.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Mvc.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Optimization.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Razor.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.WebPages.Deployment.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.WebPages.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.WebPages.Razor.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\WebGrease.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Helpers.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Mvc.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Optimization.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.Razor.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.WebPages.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.WebPages.Deployment.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\System.Web.WebPages.Razor.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Newtonsoft.Json.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Antlr3.Runtime.pdb
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.AssemblyReference.cache
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.CoreCompileInputs.cache
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.CopyComplete
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\obj\Debug\Xemphim.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\obj\Debug\Xemphim.pdb
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\EntityFramework.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\EntityFramework.SqlServer.dll
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\EntityFramework.xml
+D:\AirBnB Web\CleanCode\Xemphim\Xemphim\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Xemphim.dll.config
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Xemphim.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Xemphim.pdb
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\csc.exe
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\csc.exe.config
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\csc.rsp
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\csi.exe
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\csi.exe.config
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\csi.rsp
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Console.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\vbc.exe
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\vbc.exe.config
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\vbc.rsp
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Antlr3.Runtime.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\EntityFramework.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Newtonsoft.Json.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Helpers.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Mvc.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Optimization.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Razor.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.WebPages.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\WebGrease.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\EntityFramework.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Helpers.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Mvc.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Optimization.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.Razor.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.WebPages.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Newtonsoft.Json.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Antlr3.Runtime.pdb
+C:\Users\HP\Downloads\Xemphim\Xemphim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Downloads\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.CopyComplete
+C:\Users\HP\Downloads\Xemphim\Xemphim\obj\Debug\Xemphim.dll
+C:\Users\HP\Downloads\Xemphim\Xemphim\obj\Debug\Xemphim.pdb
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Xemphim.dll.config
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Xemphim.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Xemphim.pdb
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\csc.exe
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\csc.exe.config
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\csc.rsp
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\csi.exe
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\csi.exe.config
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\csi.rsp
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.AppContext.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Collections.Immutable.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Console.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Globalization.Calendars.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.IO.Compression.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.IO.FileSystem.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Net.Http.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Net.Sockets.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Reflection.Metadata.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.ValueTuple.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Xml.XPath.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\vbc.exe
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\vbc.exe.config
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\vbc.rsp
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\VBCSCompiler.exe
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\roslyn\VBCSCompiler.exe.config
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Antlr3.Runtime.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\EntityFramework.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\EntityFramework.SqlServer.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Microsoft.Web.Infrastructure.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Newtonsoft.Json.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Helpers.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Mvc.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Optimization.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Razor.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.WebPages.Deployment.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.WebPages.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.WebPages.Razor.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\WebGrease.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\EntityFramework.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\EntityFramework.SqlServer.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Helpers.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Mvc.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Optimization.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.Razor.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.WebPages.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.WebPages.Deployment.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\System.Web.WebPages.Razor.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Newtonsoft.Json.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Antlr3.Runtime.pdb
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.AssemblyReference.cache
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.CoreCompileInputs.cache
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\obj\Debug\Xemphim.csproj.CopyComplete
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\obj\Debug\Xemphim.dll
+D:\GithubDAPM\Phim2\Xemphim\Xemphim\obj\Debug\Xemphim.pdb

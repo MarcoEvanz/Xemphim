@@ -1,0 +1,38 @@
+﻿@model List<Xemphim.Models.Phim>
+@{
+    ViewBag.Title = "TrangChu";
+}
+
+<div class="row">
+    <div class="side">
+        <h2>Thể Loại</h2>
+        <form action="/action_page.php">
+            <label for="cars">Chọn Thể Loại Phim:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Kinh dị   </option>
+                <option value="saab">Hoạt Hình</option>
+                <option value="opel">Tình Cảm</option>
+                <option value="audi">Anime</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Tìm Kiếm">
+        </form>
+    </div>
+</div>
+<div class="row">
+    @*In Danh Sách Các Phim Có Trong Bảng "Phim"*@
+        @foreach (var phim in Model)
+        {
+            <div class="card">
+                <img src="~/Content/MovieIMG/@phim.HinhMinhHoa" alt="@phim.TenPhim" style="width:250px; height:250px">
+                <h1>@phim.TieuDe</h1>
+                <p>@phim.TenPhim</p>
+                <p>@phim.NamSanXuat</p>
+                <p>@phim.TheLoai</p>
+                <p>@phim.ThoiLuong</p>
+                <button>
+                    <a href="@Url.Action("ChiTietPhim", "Home", new { id =  phim.IdPhim})">Xem Ngay</a>
+                </button>
+            </div>
+        }
+</div>

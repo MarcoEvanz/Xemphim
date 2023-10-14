@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="XemPhimModelStoreContainer" CdmEntityContainer="XemPhimEntities">
+    <EntitySetMapping Name="DaoDiens">
+      <EntityTypeMapping TypeName="XemPhimModel.DaoDien">
+        <MappingFragment StoreEntitySet="DaoDien">
+          <ScalarProperty Name="IdDaoDien" ColumnName="IdDaoDien" />
+          <ScalarProperty Name="TenDaoDien" ColumnName="TenDaoDien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguoiDungs">
+      <EntityTypeMapping TypeName="XemPhimModel.NguoiDung">
+        <MappingFragment StoreEntitySet="NguoiDung">
+          <ScalarProperty Name="IdNguoiDung" ColumnName="IdNguoiDung" />
+          <ScalarProperty Name="HoTenNguoiDung" ColumnName="HoTenNguoiDung" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="NgayDangKy" ColumnName="NgayDangKy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phims">
+      <EntityTypeMapping TypeName="XemPhimModel.Phim">
+        <MappingFragment StoreEntitySet="Phim">
+          <ScalarProperty Name="IdPhim" ColumnName="IdPhim" />
+          <ScalarProperty Name="TieuDe" ColumnName="TieuDe" />
+          <ScalarProperty Name="TenPhim" ColumnName="TenPhim" />
+          <ScalarProperty Name="NamSanXuat" ColumnName="NamSanXuat" />
+          <ScalarProperty Name="TheLoai" ColumnName="TheLoai" />
+          <ScalarProperty Name="ThoiLuong" ColumnName="ThoiLuong" />
+          <ScalarProperty Name="URLPhim" ColumnName="URLPhim" />
+          <ScalarProperty Name="HinhMinhHoa" ColumnName="HinhMinhHoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhimDaoDiens">
+      <EntityTypeMapping TypeName="XemPhimModel.PhimDaoDien">
+        <MappingFragment StoreEntitySet="PhimDaoDien">
+          <ScalarProperty Name="IdPhim" ColumnName="IdPhim" />
+          <ScalarProperty Name="IdDaoDien" ColumnName="IdDaoDien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

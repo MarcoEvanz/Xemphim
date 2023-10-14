@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="XemPhimModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DaoDien">
+    <Key>
+      <PropertyRef Name="IdDaoDien" />
+    </Key>
+    <Property Name="IdDaoDien" Type="int" Nullable="false" />
+    <Property Name="TenDaoDien" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="IdNguoiDung" />
+    </Key>
+    <Property Name="IdNguoiDung" Type="int" Nullable="false" />
+    <Property Name="HoTenNguoiDung" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="MatKhau" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="NgayDangKy" Type="date" />
+  </EntityType>
+  <EntityType Name="Phim">
+    <Key>
+      <PropertyRef Name="IdPhim" />
+    </Key>
+    <Property Name="IdPhim" Type="int" Nullable="false" />
+    <Property Name="TieuDe" Type="varchar" MaxLength="50" />
+    <Property Name="TenPhim" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NamSanXuat" Type="date" />
+    <Property Name="TheLoai" Type="nvarchar" MaxLength="20" />
+    <Property Name="ThoiLuong" Type="varchar" MaxLength="20" />
+    <Property Name="URLPhim" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="HinhMinhHoa" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="PhimDaoDien">
+    <Key>
+      <PropertyRef Name="IdPhim" />
+    </Key>
+    <Property Name="IdPhim" Type="int" Nullable="false" />
+    <Property Name="IdDaoDien" Type="int" />
+  </EntityType>
+  <Association Name="FK__PhimDaoDi__IdDao__2C3393D0">
+    <End Role="DaoDien" Type="Self.DaoDien" Multiplicity="0..1" />
+    <End Role="PhimDaoDien" Type="Self.PhimDaoDien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DaoDien">
+        <PropertyRef Name="IdDaoDien" />
+      </Principal>
+      <Dependent Role="PhimDaoDien">
+        <PropertyRef Name="IdDaoDien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhimDaoDi__IdPhi__2B3F6F97">
+    <End Role="Phim" Type="Self.Phim" Multiplicity="1" />
+    <End Role="PhimDaoDien" Type="Self.PhimDaoDien" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Phim">
+        <PropertyRef Name="IdPhim" />
+      </Principal>
+      <Dependent Role="PhimDaoDien">
+        <PropertyRef Name="IdPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="XemPhimModelStoreContainer">
+    <EntitySet Name="DaoDien" EntityType="Self.DaoDien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NguoiDung" EntityType="Self.NguoiDung" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Phim" EntityType="Self.Phim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhimDaoDien" EntityType="Self.PhimDaoDien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__PhimDaoDi__IdDao__2C3393D0" Association="Self.FK__PhimDaoDi__IdDao__2C3393D0">
+      <End Role="DaoDien" EntitySet="DaoDien" />
+      <End Role="PhimDaoDien" EntitySet="PhimDaoDien" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhimDaoDi__IdPhi__2B3F6F97" Association="Self.FK__PhimDaoDi__IdPhi__2B3F6F97">
+      <End Role="Phim" EntitySet="Phim" />
+      <End Role="PhimDaoDien" EntitySet="PhimDaoDien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
