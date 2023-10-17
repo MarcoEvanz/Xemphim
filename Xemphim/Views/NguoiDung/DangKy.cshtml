@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+<link rel="stylesheet" href="~/Content/Css/DangNhapDangKy.css">
+<h2 style="text-align: center">ĐĂNG KÝ THÀNH VIÊN</h2>
+<br />
+<div class="row">
+    <div class="login">
+        @using (Html.BeginForm("DangKy", "NguoiDung"))
+        {
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+                @Html.TextBox("HoTenKH", null, new
+                {
+                    @class = "form-control",
+                    @id = "HoTenKH",
+                    required = "required",
+                    @placeholder = "Họ Và Tên"
+                })
+            </div>
+            <div class="form-group">
+                @Html.TextBox("TenDangNhap", null, new
+                {
+                    @class = "form-control",
+                    @id = "TenDangNhap",
+                    required = "required",
+                    @placeholder = "Tên Đăng Nhập"
+                })
+            </div>
+            <div class="form-group">
+                @Html.Password("MatKhau", null, new
+                {
+                    @class = "form-control",
+                    @id = "MatKhau",
+                    required = "required",
+                    @placeholder = "Mật Khẩu"
+                })
+            </div>
+            <div class="form-group">
+                @Html.TextBox("Email", null, new
+                {
+                    @class = "form-control",
+                    @id = "Email",
+                    type = "email",
+                    required = "required",
+                    @placeholder = "Email"
+                })
+            </div>
+            <button type="submit" class="btn btn-primary">ĐĂNG KÝ</button>
+        }
+    </div>
+</div>

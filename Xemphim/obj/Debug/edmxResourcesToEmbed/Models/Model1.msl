@@ -1,22 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="XemPhimModelStoreContainer" CdmEntityContainer="XemPhimEntities">
-    <EntitySetMapping Name="DaoDiens">
-      <EntityTypeMapping TypeName="XemPhimModel.DaoDien">
-        <MappingFragment StoreEntitySet="DaoDien">
-          <ScalarProperty Name="IdDaoDien" ColumnName="IdDaoDien" />
-          <ScalarProperty Name="TenDaoDien" ColumnName="TenDaoDien" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="NguoiDungs">
-      <EntityTypeMapping TypeName="XemPhimModel.NguoiDung">
-        <MappingFragment StoreEntitySet="NguoiDung">
-          <ScalarProperty Name="IdNguoiDung" ColumnName="IdNguoiDung" />
-          <ScalarProperty Name="HoTenNguoiDung" ColumnName="HoTenNguoiDung" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="XemPhimModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="HoTenKH" ColumnName="HoTenKH" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
           <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
-          <ScalarProperty Name="NgayDangKy" ColumnName="NgayDangKy" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -31,14 +23,7 @@
           <ScalarProperty Name="ThoiLuong" ColumnName="ThoiLuong" />
           <ScalarProperty Name="URLPhim" ColumnName="URLPhim" />
           <ScalarProperty Name="HinhMinhHoa" ColumnName="HinhMinhHoa" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="PhimDaoDiens">
-      <EntityTypeMapping TypeName="XemPhimModel.PhimDaoDien">
-        <MappingFragment StoreEntitySet="PhimDaoDien">
-          <ScalarProperty Name="IdPhim" ColumnName="IdPhim" />
-          <ScalarProperty Name="IdDaoDien" ColumnName="IdDaoDien" />
+          <ScalarProperty Name="DaoDien" ColumnName="DaoDien" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

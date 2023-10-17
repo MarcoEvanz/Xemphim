@@ -22,7 +22,6 @@ namespace Xemphim.Models
         public string ThoiLuong { get; set; }
         public string URLPhim { get; set; }
         public string HinhMinhHoa { get; set; }
-    
-        public virtual PhimDaoDien PhimDaoDien { get; set; }
+        public string DaoDien { get; set; }
     }
 }

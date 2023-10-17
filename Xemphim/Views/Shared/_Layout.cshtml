@@ -21,7 +21,8 @@
             <li>@Html.ActionLink("Liên Hệ", "Contact", "Home")</li>
             <li>@Html.ActionLink("Trailer Phim", "Trailer", "Home")</li>
             <li>@Html.ActionLink("Mới Cập Nhật", "NewMovie", "Home")</li>
-            <li style="left:900px">@Html.ActionLink("Đăng Nhập", "DangNhap", "Home")</li>
+            <li>@Session["TaiKhoan"]</li>
+            <li style="left:900px">@Html.ActionLink("Đăng Nhập", "DangNhap", "NguoiDung")</li>
         </ul>
     </div>
         <div class="container body-content">

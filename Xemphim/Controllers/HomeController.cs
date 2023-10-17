@@ -48,11 +48,6 @@ namespace Xemphim.Controllers
             return View();
 
         }
-        public ActionResult DangNhap()
-        {
-            return View();
-
-        }
         public ActionResult ChiTietPhim(int Id)
         {
             var Phim = databse.Phims.FirstOrDefault(s => s.IdPhim == Id);

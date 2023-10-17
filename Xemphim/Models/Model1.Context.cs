@@ -25,9 +25,7 @@ namespace Xemphim.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<DaoDien> DaoDiens { get; set; }
-        public virtual DbSet<NguoiDung> NguoiDungs { get; set; }
+        public virtual DbSet<KhachHang> KhachHangs { get; set; }
         public virtual DbSet<Phim> Phims { get; set; }
-        public virtual DbSet<PhimDaoDien> PhimDaoDiens { get; set; }
     }
 }

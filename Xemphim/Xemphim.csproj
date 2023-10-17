@@ -129,10 +129,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NguoiDungController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DaoDien.cs">
+    <Compile Include="Models\KhachHang.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Model1.Context.cs">
@@ -150,13 +151,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\NguoiDung.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Phim.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\PhimDaoDien.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -166,6 +161,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Css\DangNhapDangKy.css" />
     <Content Include="Content\Css\Main.css" />
     <Content Include="Content\Img\OIP.jpeg" />
     <Content Include="Content\MovieIMG\bolt.jpg" />
@@ -228,9 +224,11 @@
     <Content Include="Views\Home\Trailer.cshtml" />
     <Content Include="Views\Home\TrangChu.cshtml" />
     <Content Include="Views\Home\NewMovie.cshtml" />
-    <Content Include="Views\Home\DangNhap.cshtml" />
     <Content Include="Views\Home\ChiTietPhim.cshtml" />
     <Content Include="Views\Home\XemPhim.cshtml" />
+    <Content Include="Views\NguoiDung\DangKy.cshtml" />
+    <Content Include="Views\NguoiDung\DangNhap.cshtml" />
+    <Content Include="Views\NguoiDung\DangKy1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

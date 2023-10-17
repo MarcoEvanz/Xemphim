@@ -1,22 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="XemPhimModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="DaoDien">
+  <EntityType Name="KhachHang">
     <Key>
-      <PropertyRef Name="IdDaoDien" />
+      <PropertyRef Name="MaKH" />
     </Key>
-    <Property Name="IdDaoDien" Type="Int32" Nullable="false" />
-    <Property Name="TenDaoDien" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="PhimDaoDiens" Relationship="Self.FK__PhimDaoDi__IdDao__2C3393D0" FromRole="DaoDien" ToRole="PhimDaoDien" />
-  </EntityType>
-  <EntityType Name="NguoiDung">
-    <Key>
-      <PropertyRef Name="IdNguoiDung" />
-    </Key>
-    <Property Name="IdNguoiDung" Type="Int32" Nullable="false" />
-    <Property Name="HoTenNguoiDung" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="MatKhau" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="NgayDangKy" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenDangNhap" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Phim">
     <Key>
@@ -30,53 +22,10 @@
     <Property Name="ThoiLuong" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="URLPhim" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="HinhMinhHoa" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="PhimDaoDien" Relationship="Self.FK__PhimDaoDi__IdPhi__2B3F6F97" FromRole="Phim" ToRole="PhimDaoDien" />
+    <Property Name="DaoDien" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
-  <EntityType Name="PhimDaoDien">
-    <Key>
-      <PropertyRef Name="IdPhim" />
-    </Key>
-    <Property Name="IdPhim" Type="Int32" Nullable="false" />
-    <Property Name="IdDaoDien" Type="Int32" />
-    <NavigationProperty Name="DaoDien" Relationship="Self.FK__PhimDaoDi__IdDao__2C3393D0" FromRole="PhimDaoDien" ToRole="DaoDien" />
-    <NavigationProperty Name="Phim" Relationship="Self.FK__PhimDaoDi__IdPhi__2B3F6F97" FromRole="PhimDaoDien" ToRole="Phim" />
-  </EntityType>
-  <Association Name="FK__PhimDaoDi__IdDao__2C3393D0">
-    <End Role="DaoDien" Type="Self.DaoDien" Multiplicity="0..1" />
-    <End Role="PhimDaoDien" Type="Self.PhimDaoDien" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="DaoDien">
-        <PropertyRef Name="IdDaoDien" />
-      </Principal>
-      <Dependent Role="PhimDaoDien">
-        <PropertyRef Name="IdDaoDien" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK__PhimDaoDi__IdPhi__2B3F6F97">
-    <End Role="Phim" Type="Self.Phim" Multiplicity="1" />
-    <End Role="PhimDaoDien" Type="Self.PhimDaoDien" Multiplicity="0..1" />
-    <ReferentialConstraint>
-      <Principal Role="Phim">
-        <PropertyRef Name="IdPhim" />
-      </Principal>
-      <Dependent Role="PhimDaoDien">
-        <PropertyRef Name="IdPhim" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <EntityContainer Name="XemPhimEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="DaoDiens" EntityType="Self.DaoDien" />
-    <EntitySet Name="NguoiDungs" EntityType="Self.NguoiDung" />
+    <EntitySet Name="KhachHangs" EntityType="Self.KhachHang" />
     <EntitySet Name="Phims" EntityType="Self.Phim" />
-    <EntitySet Name="PhimDaoDiens" EntityType="Self.PhimDaoDien" />
-    <AssociationSet Name="FK__PhimDaoDi__IdDao__2C3393D0" Association="Self.FK__PhimDaoDi__IdDao__2C3393D0">
-      <End Role="DaoDien" EntitySet="DaoDiens" />
-      <End Role="PhimDaoDien" EntitySet="PhimDaoDiens" />
-    </AssociationSet>
-    <AssociationSet Name="FK__PhimDaoDi__IdPhi__2B3F6F97" Association="Self.FK__PhimDaoDi__IdPhi__2B3F6F97">
-      <End Role="Phim" EntitySet="Phims" />
-      <End Role="PhimDaoDien" EntitySet="PhimDaoDiens" />
-    </AssociationSet>
   </EntityContainer>
 </Schema>

@@ -12,12 +12,12 @@ namespace Xemphim.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class PhimDaoDien
+    public partial class KhachHang
     {
-        public int IdPhim { get; set; }
-        public Nullable<int> IdDaoDien { get; set; }
-    
-        public virtual DaoDien DaoDien { get; set; }
-        public virtual Phim Phim { get; set; }
+        public int MaKH { get; set; }
+        public string HoTenKH { get; set; }
+        public string TenDangNhap { get; set; }
+        public string MatKhau { get; set; }
+        public string Email { get; set; }
     }
 }
