@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "ChiTietUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Xemphim.Models.KhachHang
+<link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+<link rel="stylesheet" href="~/Content/Css/DangNhapDangKy.css">
+<div class="row">
+    <div class="login" style="width:80%">
+            
+        <p>Tên Tài Khoản: @Model.TenDangNhap</p>
+        <p>Mã Khách Hàng: @Model.MaKH</p>
+        <p>Họ Và Tên: @Model.HoTenKH</p>
+        <p>Email: @Model.Email</p>
+        <button style="background-color:aqua" type="button" onclick="@Session="">Đăng Xuất</button>
+    </div>
+</div>

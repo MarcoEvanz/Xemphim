@@ -11,6 +11,7 @@ namespace Xemphim.Controllers
     {
         // GET: NguoiDung
         XemPhimEntities database = new XemPhimEntities();
+        XemPhimEntities UserDataBase = new XemPhimEntities();
         [HttpGet]
         public ActionResult DangNhap()
         {
@@ -73,6 +74,12 @@ namespace Xemphim.Controllers
                 }
             }
             return View();
+        }
+
+        public ActionResult ChiTietUser(string tkkh)
+        {
+            var User = UserDataBase.KhachHangs.FirstOrDefault(s => s.TenDangNhap == tkkh);
+            return View(User);
         }
         //[HttpGet]
         //public ActionResult DangKy1(int id =0)
