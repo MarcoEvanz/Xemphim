@@ -9,10 +9,10 @@
 <div class="row">
     <div class="login" style="width:80%">
             
-        <p>Tên Tài Khoản: @Model.TenDangNhap</p>
+        <p>Tên Tài Kh87oản: @Model.TenDangNhap</p>
         <p>Mã Khách Hàng: @Model.MaKH</p>
         <p>Họ Và Tên: @Model.HoTenKH</p>
         <p>Email: @Model.Email</p>
-        <button style="background-color:aqua" type="button" onclick="@Session="">Đăng Xuất</button>
+        <button style="background-color:aqua" type="button">@Html.ActionLink("Đăng Xuất", "Logout", "NguoiDung")</button>
     </div>
 </div>

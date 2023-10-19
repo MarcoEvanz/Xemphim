@@ -81,6 +81,12 @@ namespace Xemphim.Controllers
             var User = UserDataBase.KhachHangs.FirstOrDefault(s => s.TenDangNhap == tkkh);
             return View(User);
         }
+
+        public ActionResult Logout()
+        {
+            Session.Clear();
+            return RedirectToAction("TrangChu", "Home");
+        }
         //[HttpGet]
         //public ActionResult DangKy1(int id =0)
         //{
