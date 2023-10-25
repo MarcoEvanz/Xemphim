@@ -4,10 +4,34 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model Xemphim.Models.Phim
-<h2>@Model.TieuDe</h2>
-<iframe src="@Model.URLPhim" width="640" height="360" allow="autopl+ay" id="video"></iframe>
-@*<video controls width="640" height="480">
-        <source
-                src="https://drive.google.com/uc?id=1HkH48yGWYsnuGtaKvdlj7Aai7sqyEDf_"
-                type="video/mp4">
-    </video>*@
+<link rel="stylesheet" href="~/Content/Css/Phim.css" />
+<body>
+    <iframe src="@Model.URLPhim" width="1080" height="480" allow="autopl+ay" id="video"></iframe>
+    @*<video controls width="640" height="480">
+            <source
+                    src="https://drive.google.com/uc?id=1HkH48yGWYsnuGtaKvdlj7Aai7sqyEDf_"
+                    type="video/mp4">
+        </video>*@
+    <h1 class="title">@Model.TieuDe</h1>
+    <div class="intro__info__wrap">
+        <div class="intro__info-left">
+            <h2 class="card__title text-white" style="font-size: 16px; font-weight: bold">@Model.TieuDe</h2>
+            <div class="intro__info__desc">Chuyển thể từ cuốn sách Những cuộc phiêu lưu của Pinocchio của nhà văn người Ý Carlo Collodi từng làm say mê bao thế hệ độc giả khắp thế giới, bộ phim kể về Pinocchio - chú bé người gỗ do bác thợ mộc Gepetto tạo nên, khao khát trở thành một câu bé đích thực bằng xương bằng thịt. Với chất liệu văn học tuyệt vời, cùng diễn xuất ấn tượng của chủ nhân tượng vàng Oscar - Roberto Benigni, phim đã nhận về 15 đề cử David di Donatello 2020 – giải thưởng điện ảnh cao quý, được xem như Oscars của Ý, bao gồm đề cử cho Đạo diễn xuất sắc nhất và Phim xuất sắc nhất.</div>
+        </div>
+        <div class="intro__info-right">
+            <br></br>
+            <div class="tags-group">
+                <label class="tags tags--muted">Diễn viên:</label>
+                <p class="tags text-white">Federico Ielapi, Roberto Benigni, Marine Vacth</p>
+            </div>
+            <div class="tags-group">
+                <label class="tags tags--muted">Đạo diễn:</label>
+                <p class="tags text-white">@Model.DaoDien</p>
+            </div>
+            <div class="tags-group">
+                <label class="tags tags--muted">Thể loại: </label>
+                <p class="tags text-white" tabindex="-1" href="#">@Model.TheLoai</p>
+            </div>
+        </div>
+    </div>
+</body>

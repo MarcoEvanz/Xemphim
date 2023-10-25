@@ -1,0 +1,31 @@
+﻿.intro__info__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__info-left {
+    flex: 0 0 60%;
+    text-align: left;
+    color:white
+}
+
+.intro__info-right {
+    flex: 0 0 36%;
+    text-align: left;
+    color: white
+}
+body {
+    background-color:black
+}
+.title {
+    font-family: "Roboto Medium",sans-serif;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color:white
+}
+.align-middle {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
